@@ -5,11 +5,13 @@ import SingIn from './pages/SignIn'
 import SignUp from './pages/Signup'
 import About from './pages/About'
 import Profolio from './pages/Profolio'
+import Header from './components/Header'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
      <BrowserRouter>
+     <Header/>
      <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/sign-in' element={<SingIn/>}></Route>
