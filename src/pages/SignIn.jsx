@@ -1,6 +1,6 @@
 import React from "react";
 
-function SingIn()
+function SignIn()
 {
     return (
         <div>
@@ -8,4 +8,4 @@ function SingIn()
         </div>
     )
 }
-export default SingIn
+export default SignIn
