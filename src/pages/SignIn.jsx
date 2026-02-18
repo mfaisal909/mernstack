@@ -4,7 +4,7 @@ function SignIn()
 {
     return (
         <div>
-            Signout pages
+            Sign in pages
         </div>
     )
 }
